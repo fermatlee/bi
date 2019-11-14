@@ -13,4 +13,8 @@ with  d as (
 	            )
 select d.*,t.is_failed_order_vendor
 from d
-LEFT JOIN t USING(order_id)
+LEFT JOIN t USING(order_id);
+---this is testing 
+SELECT a.*
+FROM a
+Left join b using(id)
